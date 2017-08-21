@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/intro1">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@+id/intro_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/intro1"/>
+        <TextView
+            android:id="@+id/intro_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intro_image"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:text="更詳盡的購物清單"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intro_text"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="完整的購物清單加上\n搜尋的功能能夠幫助你更快速的管理帳務出入!"/>
+    </RelativeLayout>
+</RelativeLayout>
